@@ -1,0 +1,156 @@
+@media screen and (min-width: 300px){
+	.logo-nav{width: 10rem; transform: translateX(4rem);margin-top:6%}
+	#scroll_nav {display: none;}
+	.mouseposi i { left: 39%;}
+	.portfolio-wrapper ul.filter li {font-size: 13px ;margin-right: 10px ;}
+	.mask_btn{top:32rem;left:-41rem;}
+}
+
+@media screen and (min-width: 375px){
+	.menu-wrap{width:210px}
+	.logo-nav{width: 10rem; transform: translateX(5rem);}
+	#scroll_nav {display: none;}
+	/* .portfolio-wrapper ul.filter li {font-size: 12px ;margin-right: 10px ;} */
+	.fadeinleft2{position: relative;left: -35px;top: 100px;}
+	.info li .first-block {width: 52%;}
+	.mask_btn{top:32rem;left:-37rem;}
+}
+
+@media screen and (min-width: 414px){
+	.logo-nav{width:10rem;  transform: translateX(6rem);}
+	#scroll_nav {display: none;}
+	/* .portfolio-wrapper ul.filter li {font-size: 12px ;margin-right: 10px ;} */
+	.info li .first-block {width: 52%;}
+	.mask_btn{top:32rem;left:-35rem;}
+}
+
+
+@media screen and (min-width: 480px){
+	/*----- layout ----*/
+	.grey-bg, .white-bg{
+		padding: 40px 0;		
+	}
+	/*---- hero -----*/
+	.hero-content{
+		min-width: 280px; 
+		padding: 25px;
+	}
+	.menu-wrap{width: 220px;}
+	.mouse-icon{bottom: 5px;}
+
+	.logo-nav{transform: translateX(18rem);}
+	.menu-button{top: 1%;}
+
+	.mask_btn{top:33rem;left:-31.5rem;}
+	/*---- portfolio -----*/
+	ul.portfolio-image li{
+		width: 100%;
+		padding-top: 95%;
+	}
+
+	/* .portfolio-wrapper ul.filter li {font-size: 12px;margin-right: 10px;} */
+	/* .fadeinleft2{position: relative;left: -85px;top: 100px;} */
+		
+	.skill-per::before {top: -27px;font-size: 11px;}
+	.skill-per::after {	font-size: 15px;margin-right: 3px;}
+
+	.mouseposi i{position: absolute;top:75%;left:40%}
+	#scroll_nav {display: none;}
+
+	.skill-per::after {width: 5px;height: 5px;top: -4px;}
+  /*------- testimonial -------*/
+  #testimonial{ height: 700px;}
+  .wrap-testimonial {top: 155px;}
+
+  /* .skillst {margin-top: 50px;} */
+}
+
+@media screen and (min-width: 576px){
+	.logo-nav{width: 10.5rem; transform: translateX(26rem);padding-top: 0;}
+	#scroll_nav {display: none;}
+		.mouseposi i{
+		position: absolute;
+	top:78%;left:40%;}
+	.mask_btn{top:34rem;left:-27rem;}
+
+	.mask-testimonial {
+	background-image: url('../img/masktbg.jpg');
+	background-size: cover;}
+	.wrap-testimonial {top: 65px;}
+}
+
+@media screen and (min-width: 768px){
+	/*------ header -----*/	
+	.for-sticky{ padding: 0; }
+	.logo-nav { transform: translateX(41rem);margin-top:3%}
+	.menu-button{top: 3px;right: 1%;}
+	.mask-testimonial{
+	background: url(https://images.unsplash.com/photo-1607707972895-7f994d8c2f3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+    background-size: cover;
+	}
+
+	/*------- home ------*/
+	#home p {width: 100%;}
+
+	.mouseposi i{
+		position: absolute;
+	top:78%;left:46%;}
+		.mask_btn{top:33rem;left:-20rem;}
+
+	.portfolio-wrapper ul.filter li{font-size:16px;margin-right:27px;}
+
+  .content-right{ margin-top: 20px; }
+
+  #contact .row {
+    /* margin-right: 0; */
+    display: flex;
+    justify-content: center;
+}
+
+	/*------ footer -----*/
+  footer p:nth-child(1){ text-align: center; width:85%}
+  footer p:nth-child(2){ text-align: center; width:100%}
+  footer ul.social {
+    margin-left: -40px;
+    text-align: center;
+	}
+	footer ul.social li { 
+		padding: 0px 10px 0px 10px;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.logo-nav{width:14.5rem;transform: translateX(55rem);margin-top:-2%}
+	.menu-button {top:2%;right: 1%};
+	.content-right {
+	  margin-top: 20px;
+	  padding: 0 20px 0 60px; 
+	}
+
+	.mouseposi i{
+		position: absolute;
+		top:76%;}
+		.mask_btn{top:38rem;left:-9rem;}
+}
+
+
+@media screen and (min-width: 1248px){
+	.logo-nav{transform: translateX(58rem);}
+	.menu-button{top:2%}
+	.portfolio-wrapper ul.filter li{font-size:16px;margin-right:27px;}
+	.mask_btn{top:38rem;left:1rem;}
+}
+
+@media screen and (min-width: 1280px){
+	.logo-nav{transform: translateX(70rem);margin-top: -2%;}
+	.menu-button {margin-top: 20px;right: -5px;}
+	.mouseposi i{position: absolute;top:76%; margin-left: 1%;}
+}
+
+@media screen and (min-width:1440px){
+	.logo-nav{transform: translateX(87rem);margin-top: 2%;}
+}
+
+@media screen and (min-width:2560px){
+	.logo-nav{transform: translateX(124rem);margin-top: -2%;}
+}
